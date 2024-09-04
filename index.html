@@ -1,84 +1,73 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Earth</title>
     <style>
-        * {
+        
+        *{
             margin: 0;
-            padding: 0;
+            padding: 10px;
         }
-        body {
+        body{
             font-family: 'Poppins', sans-serif;
             color: white;
             background-image: url('https://mdbootstrap.com/img/new/fluid/nature/015.jpg');
-            background-repeat: repeat-x; /* Repeat background image horizontally */
-            background-size: cover; /* Ensure the background covers the entire body */
             height: 110vh;
-            animation: scroll-background 30s linear infinite;
         }
-        @keyframes scroll-background {
-            from {
-                background-position: 0 0;
-            }
-            to {
-                background-position: -100% 0;
-            }
-        }
-        body h1 {
-            background-color: rgba(23, 23, 102, 0.541); 
-            color: white;
+        body h1{
+            background-color: rgba(23, 23, 102, 0.541); color: white;
             text-align: center;
         }
-        body h2 {
+        body h2{
             text-align: center;
             color: rgb(75, 75, 200);
         }
-        .image {
+        .image{
+            
             margin: 10px;
             height: auto;
             align-items: center;
             transition: 1s;
         }
-        .image:hover {
+        .image:hover{
             transform: scale(1.1);
         }
-        .facts {
+        
+
+        .facts{
             justify-content: center;
             display: flex;
+            /* margin: 23px 0; */
         }
-        button {
+
+        button{
             border-radius: 5px;
         }
-        button:hover {
+        button:hover{
             background-color: white;
         }
-        .click {
+
+        .click{
             text-decoration: none;
             font-size: small;
             color: black;
+            
         }
-        .click:hover {
+
+        .click:hover{
             font-size: 1rem;
             color: blueviolet;
             font: italic;
+
         }
-        hr {
+
+        hr{
             height: 0;
             margin: 40px 0;
             background: #7974da;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
+            
         }
     </style>
 </head>
@@ -88,56 +77,69 @@
     <img class="image" src="Earth.png" height="300" alt="Earth">
 
     <p class="facts">
-        <b> Earth Facts
-        Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life</b>
-    </p>
-    <hr>
+       <b> Earth Facts
+        Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life</b></p>
+        <hr>
 
-    <ul>
-        <li>Equatorial Diameter: 12,756 km</li>
-        <li>Polar Diameter: 12,714 km</li>
-        <li>Mass: 5.97 × 10^24 kg</li>
-    </ul>
+        <ul>
+            <li>Equatorial Diameter:	12,756 km</li>
+            <li>Polar Diameter:	12,714 km</li>
+            <li>Mass:	5.97 × 10^24 kg</li>
+        </ul>
 
-    <hr>
+        <hr>
 
-    <h3>Top 3 facts about the earth</h3>
+        <h3>Top 3 facts about the earth</h3>
 
-    <ol>
-        <li>The Earth's rotation is gradually slowing.</li>
-        <li>The Earth was once believed to be the centre of the universe.</li>
-        <li>Earth has a powerful magnetic field.</li>
-    </ol>
+        <ol>
+            <li>The Earth's rotation is gradually slowing.</li>
+            <li>The Earth was once believed to be the centre of the universe.</li>
+            <li>Earth has a powerful magnetic field.</li>
+        </ol>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Radius</th>
-                <th>Average <br>Temperature</th>
-            </tr>
-        </thead>
+        
+
+        <table>
+            <th>
+                <tr>
+                    <th>Name</th>
+                    <th>Radius</th>
+                    <th>Average <br>Temperature</th>
+                </tr>
+        </th>
+
         <tbody>
             <tr>
                 <td>Mars</td>
                 <td>3,390km</td>
-                <td> -63&deg;</td>
+                <td>  -63&deg;</td>
+
             </tr>
+
             <tr>
                 <td>Venus</td>
                 <td>6,052km</td>
-                <td> 462&deg;</td>
+                <td>  462&deg;</td>
+
             </tr>
+
             <tr>
                 <td>Earth</td>
                 <td>6,371km</td>
                 <td>15&deg;</td>
             </tr>
-        </tbody>
-    </table>
-    <hr>
 
-    <p>Want to know more?</p>
-    <button><a class="click" href="https://space-facts.com/earth/">Click here</a></button>
+            <hr>
+
+        </tbody>
+        </table>
+        <hr>
+
+          <p>Want to know more?</p>
+        <button><a class="click" href="https://space-facts.com/earth/">Click here</a></button> 
+    
+
+
+
 </body>
 </html>
